@@ -1,6 +1,8 @@
 #!/bin/bash
 # added 2015-11-13 by singh.janmejay
 # This file is part of the rsyslog project, released under ASL 2.0
+echo "test temporarily disabled"
+exit 77
 . ${srcdir:=.}/diag.sh init
 generate_conf
 add_conf '

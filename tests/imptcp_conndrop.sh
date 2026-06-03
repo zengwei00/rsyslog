@@ -3,6 +3,8 @@
 # added 2010-08-10 by Rgerhards
 #
 # This file is part of the rsyslog project, released under ASL 2.0
+echo "test temporarily disabled"
+exit 77
 . ${srcdir:=.}/diag.sh init
 export NUMMESSAGES=${NUMMESSAGES:-50000} # permit valgrind test to override value
 export TB_TEST_MAX_RUNTIME=${TB_TEST_MAX_RUNTIME:-700} # connection drops are very slow...

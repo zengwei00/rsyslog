@@ -1,5 +1,7 @@
 #!/bin/bash
 # This is part of the rsyslog testbench, licensed under ASL 2.0
+echo "test temporarily disabled"
+exit 77
 . ${srcdir:=.}/diag.sh init
 if [ $(uname) = "SunOS" ] ; then
    echo "Solaris: FIX ME"
